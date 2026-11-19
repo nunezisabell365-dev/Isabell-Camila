@@ -85,16 +85,16 @@
    Change a variable once here, and every place that uses it changes. */
 :root {
     /* ----- Your assistant's main colors ----- */
-    --primary-color: #4721a7;   /* Main brand color (deep violet). Used in the header gradient, user message bubbles, buttons, the outline around a box you click into, and the 1st typing dot. */
-    --secondary-color: #0f050d; /* Partner color (almost black). It is the second half of every gradient (header, user bubbles, buttons) and the 2nd typing dot. Try a bright color like #e05cc8 (pink) for a bolder look. */
-    --accent: #ffd166;          /* Highlight color (sunny yellow). Used for headings inside the bot's replies and the 3rd typing dot. */
+    --primary-color: #f388a6;   /* Main brand color (deep violet). Used in the header gradient, user message bubbles, buttons, the outline around a box you click into, and the 1st typing dot. */
+    --secondary-color: #e4e18b; /* Partner color (almost black). It is the second half of every gradient (header, user bubbles, buttons) and the 2nd typing dot. Try a bright color like #e05cc8 (pink) for a bolder look. */
+    --accent: #db7120;          /* Highlight color (sunny yellow). Used for headings inside the bot's replies and the 3rd typing dot. */
 
     /* ----- Backgrounds & text ----- */
-    --background: #0f1030;      /* The color behind the whole page (dark navy). */
-    --surface: #1b1d44;         /* The color of the big cards: the chat box. */
-    --surface-2: #262a5a;       /* A slightly lighter color for "inner" areas: the bot's message bubbles and the typing boxes. */
-    --text-primary: #f2f1ff;    /* Main text color (almost white). If you make the backgrounds light, make this dark! */
-    --text-secondary: #a7abdb;  /* Softer text color (light lavender) for labels and small notes. */
+    --background: #e4cd72;      /* The color behind the whole page (dark navy). */
+    --surface: #ec98b7;         /* The color of the big cards: the chat box. */
+    --surface-2: #f3d792;       /* A slightly lighter color for "inner" areas: the bot's message bubbles and the typing boxes. */
+    --text-primary: #fa8642;    /* Main text color (almost white). If you make the backgrounds light, make this dark! */
+    --text-secondary: #fa853c;  /* Softer text color (light lavender) for labels and small notes. */
 
     /* ----- The emoji your assistant uses as its face ----- */
     /* --bot-face: "🤖"; */       /* Shown in the round badge at the top AND next to every bot message. Swap in any emoji, like "🦄", "🐱" or "🌟". Keep the quotation marks! */
@@ -105,7 +105,7 @@
        3. Search "Picture version" and uncomment the two rules under it
           (one for the top badge, one for the bot's messages).
        To go back to an emoji, undo all three steps. */
-    --bot-face: url("assets/OIP.jpeg"); /* Your picture: the folder name, a slash, then the file name. */
+    --bot-face: url("assets/cat.webp"); /* Your picture: the folder name, a slash, then the file name. */
 
     /* ----- Motion ----- */
     --transition-speed: 0.25s;  /* How fast things smoothly change, like a button lifting when you hover over it. Bigger = slower (try 0.6s). */
